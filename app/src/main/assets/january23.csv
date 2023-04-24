@@ -1,0 +1,31 @@
+Sl No., Regional Office , district, River, code no., sample collection point, D.O (mg/Lit ), B.D.O(mg/lit),"total coliform(mpn/100ml), Fecal coliform(mpn/100ml), Category 
+1, Bijnor, Bijnor, Ganga river, 10150, At Middle Ganga Barrage Bijnor, 8.9, 1.3, 1700, 700, c 
+2, Ghaziabad, Hapur, Ganga River, 10149, Upstream Brijghat Garhmukteshwar, 9.2, 1.3, 920, 540, c
+3, Ghaziabad, Hapur, Ganga River, 1062, Garhmukteshwar down stream Ganga, 8.5, 2.3, 1600, 920, c 
+4, bulandshahr, bulandshahr, Ganga River, 2488, Upstream Anupshahr, 9.3, 1.3, 540, 220, c 
+5, bulandshahr, bulandshahr, Ganga River, 2489, downstream Anupshahr, 9.1, 1.5, 2200, 920, c 
+6, bulandshahr, bulandshahr, Ganga River, 1145, Rajghat Downstream Narorda, 8.4, 1.7, 1600, 540, c 
+7, Bareilly, Badaun, Ganga river, 2490, Kachlaghat Badaun, 10.0, 1.2, 350, 260, B 
+8, Kanpur, Farrukhabad, Ganga river, 10151, At Farrukhabad (Bad Ghat), 7.5, 3.2, 2600, 1100, D
+9, Kanpur, kannauj, Ganga river, 1063, Upstream Kannauj, 7.6, 3.7, 2700, 1700, D 
+10,Kanpur, kannauj, Ganga river, 1066, Downstream Kannauj, 7.5, 3.8, 3800, 2500, D 
+11, Kanpur, kanpur, Ganga river, 1146, Bithoor Kanpur, 7.7, 3.6, 4000, 2700, D 
+12, Kanpur, kanpur, Ganga river, 10154, At Bhairav ​​Ghat (Bething Ghat), 7.4, 3.9, 4100, 2500, D 
+13, Kanpur, kanpur, Ganga river, 1067, Upstream Kanpur (Shuklaganj), 7.6, 4.0, 3300, 2700, D 
+14, Kanpur, kanpur, Ganga river, 10155, et d. S . Shukla Ganj, 7.5, 4.2, 4600, 3100, D 
+15, Kanpur, kanpur, Ganga river, 10156, At Gola Ghat (Bething Ghat), 7.3, 4.4, 4100, 2500, D 
+16, Kanpur, kanpur, Ganga river, 10157, At Jajmau Bridge (Bething Ghat), 7.3, 4.6, 4700, 3400, D 
+17, Kanpur, kanpur, Ganga river, 1068, Downstream Kanpur (Jana Village), 7.1, 4.8, 13000, 7800, D 
+18, Rae Bareli, Rae Bareli, Ganga river, 1147, Dalmau Rae Bareli, 8.0, 3.1, 2300, 1300, D 
+19, Rae Bareli, Pratapgarh, Ganga river, 2498, Kalakankar, 8.0, 3.0, 2400, 1700, C 
+20, Prayagraj, koshambi, Ganga river, 2487, Kadaghat, 7.4, 2.7, 1500, 610, C 
+21, Prayagraj, Prayagraj, Ganga river, 1046, Upstream Prayagraj (Rasulabad ghat), 7.5, 2.9, 1600, 610, C 
+22, Prayagraj, Prayagraj, Ganga river, 1049, Downstream Prayagraj (Sangam), 6.9, 2.8, 2400, 920, C 
+23, Prayagraj, Prayagraj, Ganga river, 10158, After meeting in the river Tamsa Sirsa Son Barsa, 7.9, 2.8 , 2000, 680, C 
+24, Sonbhadra, Mirzapur, Ganga river, 2485, Upstream Vindhyachal Mirzapur, 8.0, 2.4, 1400, 910, C 
+25, Sonbhadra, Mirzapur, Ganga river, 2486, Downstream Mirzapur, 7.2, 3.8, 20000, 12000, D 
+26, Sonbhadra, Sonbhadra, Ganga river, 10153, At Chunar Pontoon Bridge, 7.6, 3.1, 11000, 6800, D 
+27, Varanasi, Varanasi, Ganga river, 1070,  Upstream Varanasi, 7.4, 2.4, 1300, 920, C 
+28, Varanasi, Varanasi, Ganga river, 1071,  Downstream Varanasi, 6.6, 4.2, 21000, 11000, D  
+29, Varanasi, Ghazipur, Ganga river, 10152, After meeting in the river Gomti Bhusaval Saldia Road Saidpur, 7.3, 3.2, 11000, 6800, D 
+30, Varanasi, Ghazipur, Ganga river, 1073, Downstream Tarighat, 6.7, 4.1, 20000, 13000, D 
