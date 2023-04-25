@@ -3,6 +3,8 @@ package com.example.csv
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.lifecycle.lifecycleScope
+import androidx.room.Room
 import com.opencsv.CSVReaderBuilder
 import java.io.InputStreamReader
 
@@ -10,6 +12,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val db = Room.databaseBuilder(
+            applicationContext,
+            AppDatabase::class.java, "database-name"
+        ).build()
+
         val csvRows = mutableListOf<CsvRow>()
         val textView = findViewById<TextView>(R.id.tvCsv)
         val reader = CSVReaderBuilder(InputStreamReader(assets.open("january23.csv")))
@@ -38,5 +46,27 @@ class MainActivity : AppCompatActivity() {
             )
 
         }
+        csvRows.forEach {
+            val data = CsvRow(
+                slNo = it.slNo,
+                regionalOffice = it.regionalOffice,
+                district = it.district,
+                river = it.river,
+                codeNo = it.codeNo,
+                sampleCollectionPoint = it.sampleCollectionPoint,
+                doMgLit = it.doMgLit,
+                bdoMgLit = it.bdoMgLit,
+                totalColiformMpn100ml = it.totalColiformMpn100ml,
+                fecalColiformMpn100ml = it.fecalColiformMpn100ml,
+                category = it.category
+            )
+            lifecycleScope.launchWhenCreated {
+                db.waterQualityDataDao().insert(data)
+            }
+
+        }
+
+
     }
+
 }

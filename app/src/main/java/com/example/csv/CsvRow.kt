@@ -1,6 +1,11 @@
 package com.example.csv
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "water_quality_data")
 data class CsvRow(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val slNo: String,
     val regionalOffice: String,
     val district: String,
