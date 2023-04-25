@@ -10,6 +10,7 @@ interface WaterQualityDataDao {
    suspend fun insert(data: CsvRow)
 
     @Query("SELECT * FROM water_quality_data")
-   suspend   fun getAllData(): List<CsvRow>
+    suspend  fun getAllData(): List<CsvRow>
+    
 }
 
